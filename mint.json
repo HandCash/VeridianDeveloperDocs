@@ -1,17 +1,17 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "HandCash Developer Documentation",
+  "name": "Veridian Developer Documentation",
   "logo": {
-    "dark": "/logo/handcash_overDark.svg",
-    "light": "/logo/handcash_overLight.svg"
+    "dark": "/logo/Horizontal signature #04.png",
+    "light": "/logo/Horizontal signature #01.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#11ad4d",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#034E53",
+    "light": "#35715F",
+    "dark": "#D3FFB4",
     "anchors": {
-      "from": "#57ff97",
+      "from": "#034E53",
       "to": "#07C983"
     }
   },
@@ -23,19 +23,14 @@
   ],
   "topbarCtaButton": {
     "name": "Developer Dashboard",
-    "url": "https://dashboard.handcash.io"
+    "url": "https://dashboard.veridian.ch"
   },
   "tabs": [],
   "anchors": [
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/aKpjBgAh"
-    },
-    {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://market.handcash.io/blog"
+      "url": "https://veridian.io"
     }
   ],
   "navigation": [
@@ -47,7 +42,7 @@
       ]
     },
     {
-      "group": "Wallet API",
+      "group": "Distributed-Custody Wallet SDK",
       "pages": [
         "wallet-api/getting-started",
         "wallet-api/create-user-account",
@@ -59,15 +54,19 @@
       ]
     },
     {
-      "group": "Handcash Connect",
+      "group": "Self-Custody Wallet API",
       "pages": [
-        "handcash-connect/getting-started",
-        "handcash-connect/account",
-        "handcash-connect/wallet"
+        "wallet-api/getting-started",
+        "wallet-api/create-user-account",
+        "wallet-api/create-authorization-for-existing-account",
+        "wallet-api/manage-wallets",
+        "wallet-api/configure-paymail",
+        "wallet-api/custom-verification-email",
+        "wallet-api/on-ramps"
       ]
     },
     {
-      "group": "Items",
+      "group": "NFT Minter",
       "pages": [
         "handcash-items/getting-started",
         "handcash-items/create-items",
@@ -109,8 +108,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://twitter.com/handcashapp",
+    "x": "https://twitter.com/GoVeridian",
     "github": "https://github.com/HandCash",
-    "linkedin": "https://www.linkedin.com/company/handcash"
+    "linkedin": "https://www.linkedin.com/company/VeridianBlockchain"
   }
 }
