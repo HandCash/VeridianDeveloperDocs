@@ -25,20 +25,7 @@
     "name": "Developer Dashboard",
     "url": "https://dashboard.veridian.ch"
   },
-  "tabs": [
-    {
-      "tab": "API Reference",
-      "groups": [
-        {
-          "group": "Self-custody Wallet API",
-          "openapi": {
-            "source": "/open-api/self-custody-wallet-api-openapi.yaml",
-            "directory": "self-custody-wallet-api"
-          }
-        }
-      ]
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
       "name": "Blog",

@@ -57,19 +57,19 @@ sequenceDiagram
     User->>App: Sign up request
     App-->>User: Confirmation
     User->>App: Request wallet creation
-    App->>Handcash: Request email verification
-    Handcash->>User: Sends verification email
-    Handcash-->>App: Responds with request_id
+    App->>Veridian: Request email verification
+    Veridian->>User: Sends verification email
+    Veridian-->>App: Responds with request_id
     User->>App: Enters verification code
-    App->>Handcash: Verify code with request_id
-    Handcash-->>App: Email verified
+    App->>Veridian: Verify code with request_id
+    Veridian-->>App: Email verified
     App->>User: Alias selection
     User->>App: Submit alias
-    App->>Handcash: Check alias availability
-    Handcash-->>App: Alias available
-    App->>Handcash: Create wallet
-    Handcash-->>App: Wallet created
+    App->>Veridian: Check alias availability
+    Veridian-->>App: Alias available
+    App->>Veridian: Create wallet
+    Veridian-->>App: Wallet created
     App-->>User: Wallet created, show deposit options
 ```
 
-This diagram provides a visual representation of the interaction between the User, your App, and Handcash during the wallet creation process.
+This diagram provides a visual representation of the interaction between the User, your App, and Veridian during the wallet creation process.
