@@ -42,6 +42,14 @@
       ]
     },
     {
+      "group": "Wallets",
+      "pages": [
+        "wallets/getting-started",
+        "wallet-api/configure-paymail",
+        "wallet-api/on-ramps"
+      ]
+    },
+    {
       "group": "Distributed-Custody Wallet SDK",
       "pages": [
         "wallet-api/getting-started",
