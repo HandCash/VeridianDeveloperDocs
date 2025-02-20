@@ -33,84 +33,86 @@
       "url": "https://veridian.io"
     }
   ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "developer-dashboard"
-      ]
-    },
-    {
-      "group": "Wallets",
-      "pages": [
-        "wallets/getting-started",
-        {
-          "group": "Distributed-Custody Wallet SDK",
-          "pages": [
-            "wallet-api/getting-started",
-            "wallet-api/create-user-account",
-            "wallet-api/create-authorization-for-existing-account",
-            "wallet-api/manage-wallets",
-            "wallet-api/custom-verification-email",
-          ]
-        },
-        {
-          "group": "Self-Custody Wallet API",
-          "pages": [
-            "wallet-api/getting-started",
-            "wallet-api/create-wallets",
-            "wallet-api/access-wallets",
-            "wallet-api/manage-wallets",
-            "wallet-api/configure-paymail",
-          ]
-        },
-        "wallet-api/configure-paymail",
-        "wallet-api/on-ramps"
-      ]
-    },
-    {
-      "group": "NFT Minter",
-      "pages": [
-        "handcash-items/getting-started",
-        "handcash-items/create-items",
-        "handcash-items/manage-items",
-        "handcash-items/craft-items",
-        "handcash-items/webhooks",
-        "handcash-items/market"
-      ]
-    },
-    {
-      "group": "Business Wallet",
-      "pages": [
-        "business-wallet/getting-started"
-      ]
-    },
-    {
-      "group": "Payment Requests",
-      "pages": [
-        "handcash-pay/getting-started",
-        "handcash-pay/create-payment-request",
-        "handcash-pay/manage-payment-request",
-        "handcash-pay/webhooks"
-      ]
-    },
-    {
-      "group": "Use Cases and Examples",
-      "pages": [
-        "useCases/open-card-pack",
-        "useCases/sell-items",
-        "useCases/items-minter",
-        "useCases/external-wallet-demo"
-      ]
-    },
-    {
-      "group": "Miscellaneous",
-      "pages": [
-        "miscellaneous/authentication"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "developer-dashboard"
+        ]
+      },
+      {
+        "group": "Wallets",
+        "pages": [
+          "wallets/getting-started",
+          {
+            "group": "Distributed-Custody Wallet SDK",
+            "pages": [
+              "wallet-api/getting-started",
+              "wallet-api/create-user-account",
+              "wallet-api/create-authorization-for-existing-account",
+              "wallet-api/manage-wallets",
+              "wallet-api/custom-verification-email"
+            ]
+          },
+          {
+            "group": "Self-Custody Wallet API",
+            "pages": [
+              "wallet-api/getting-started",
+              "wallet-api/create-wallets",
+              "wallet-api/access-wallets",
+              "wallet-api/manage-wallets",
+              "wallet-api/configure-paymail"
+            ]
+          },
+          "wallet-api/configure-paymail",
+          "wallet-api/on-ramps"
+        ]
+      },
+      {
+        "group": "NFT Minter",
+        "pages": [
+          "handcash-items/getting-started",
+          "handcash-items/create-items",
+          "handcash-items/manage-items",
+          "handcash-items/craft-items",
+          "handcash-items/webhooks",
+          "handcash-items/market"
+        ]
+      },
+      {
+        "group": "Business Wallet",
+        "pages": [
+          "business-wallet/getting-started"
+        ]
+      },
+      {
+        "group": "Payment Requests",
+        "pages": [
+          "handcash-pay/getting-started",
+          "handcash-pay/create-payment-request",
+          "handcash-pay/manage-payment-request",
+          "handcash-pay/webhooks"
+        ]
+      },
+      {
+        "group": "Use Cases and Examples",
+        "pages": [
+          "useCases/open-card-pack",
+          "useCases/sell-items",
+          "useCases/items-minter",
+          "useCases/external-wallet-demo"
+        ]
+      },
+      {
+        "group": "Miscellaneous",
+        "pages": [
+          "miscellaneous/authentication"
+        ]
+      }
+    ]
+  },
   "footerSocials": {
     "x": "https://twitter.com/GoVeridian",
     "github": "https://github.com/HandCash",
