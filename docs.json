@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Veridian Developer Documentation",
   "description": "The quickest way to develop blockchain app",
