@@ -26,21 +26,19 @@
             "pages": [
               "wallet-api/getting-started",
               {
-                "group": "Self-Custody Wallet",
+                "group": "Distributed-Custody Wallet",
                 "pages": [
-                  "wallet-api/getting-started",
                   "wallet-api/create-user-account",
                   "wallet-api/create-authorization-for-existing-account",
                   "wallet-api/manage-wallets"
                 ]
               },
               {
-                "group": "Distributed-Custody Wallet",
+                "group": "Self-Custody Wallet",
                 "pages": [
-                  "wallet-api/getting-started",
-                  "wallet-api/create-user-account",
-                  "wallet-api/create-authorization-for-existing-account",
-                  "wallet-api/manage-wallets"
+                  "wallet-api/self-custody/create-user-account",
+                  "wallet-api/self-custody/access-existing-account",
+                  "wallet-api/self-custody/manage-wallets"
                 ]
               },
               "wallet-api/configure-paymail",
