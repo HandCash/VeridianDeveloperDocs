@@ -74,8 +74,6 @@
           {
             "group": "Use Cases and Examples",
             "pages": [
-              "useCases/open-card-pack",
-              "useCases/sell-items",
               "useCases/items-minter",
               "useCases/external-wallet-demo"
             ]
