@@ -1,34 +1,61 @@
 ---
-title: Getting Started
-description: 'Create and manage users wallet with only email verification without the user ever leaving your application'
+title: "Getting Started"
+description: "The Wallet API is designed for quick integration of the wallet primitives into any platform."
 ---
+
+## Introduction
+
+Wallet API supports the most essential wallet functions with an easy-to-use SDK, allowing any developer to integrate blockchain into their platform in just a few minutes.
+
+It offers the following features:
+
+- **Create wallets** — create and restore wallets
+- **Get balances** — retrieve aggregated token balances
+- **Get transaction history** — access all previous transactions
+- **Get deposit information** — learn different methods to transfer assets to any wallet
+- **Transfer tokens** — send any token with just a few lines of code.
+- **Transfer NFTs** — transfer any NFT with a few lines of code.
+- **Store data** — save any arbitrary piece of information (hex data, JSON, etc.) on the blockchain with minimal code.
 
 ## Set up
 
 To get started with Wallet API:
 
 1. Create an application in the [Developer Dashboard](/developer-dashboard)
-
 2. Save your `AppSecret` and `AppId` for later use
-
-3. Reach out to [sales@handcash.io](mailto:sales@handcash.io) to enable this feature with your application id
-
-4. Install the HandCash SDK in your project:
+3. Install the Veridian SDK in your project:
 
 ```
-npm install --save @handcash/handcash-sdk
+npm install --save @veridian/sdk
 ```
 
-## Overview
+## Wallet Custody Models
 
-HandCash Wallet Service enables you to create wallets for your users using just email verification. With the HandCash SDK, you can initiate the process of sending a verification code to your user's email address.
+We offer two different custody models for wallets, depending on your needs.
 
-Once set up, this wallet allows you to:
+#### **Distributed-Custody Wallet**
 
-* Check balance
+The best way to onboard new users. It does not require users to store complicated user mnemonics that they don't understand, can lose, or expose, which could lead to hacking.\
+\
+Create wallets that your users can create and restore by verifying their email address. Protected by MPC (multi-party computation).
 
-* Retrieve transaction history
+#### **Self-Custody Wallet**
 
-* Make payments
+The quickest way to create and manage self-custody wallets. You are responsible for creating and protecting the wallet's private keys that control the assets.
 
-The key advantage is that users can perform all these actions without leaving your application.
+It provides more flexibility by not requiring users to verify their email addresses, but it also introduces complexity on your side to manage the private keys. You become the wallet custodian.
+
+## Next Steps
+
+Choose the wallet custody model that suits you best and deploy your first app in minutes 🚀.
+
+<CardGroup cols={2}>
+  <Card title="Distributed-Custody Wallet SDK" icon="square-2">
+    Learn more about our Distributed-Custody Wallet SDK.
+  </Card>
+  <Card title="Self-Custody Wallet API" icon="square-1">
+    Learn more about our Self-Custody Wallet API.
+  </Card>
+</CardGroup>
+
+If you have any questions, reach out to our [Support Team](mailto:support@veridian.ch).
